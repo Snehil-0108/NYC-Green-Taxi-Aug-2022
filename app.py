@@ -53,7 +53,7 @@ def load_data():
         # In Streamlit, we need to handle file upload differently
         # For this example, I'll assume the data is already loaded in the notebook
         # In a real app, you'd use st.file_uploader()
-        nycgreentaxi = pd.read_parquet("../green_tripdata_2022-08.parquet")
+        nycgreentaxi = pd.read_parquet("green_tripdata_2022-08.parquet")
         
         # Data processing from the notebook
         nycgreentaxi = nycgreentaxi.drop(["ehail_fee", "fare_amount"], axis=1)
