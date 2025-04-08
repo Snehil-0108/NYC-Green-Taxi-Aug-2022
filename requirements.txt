@@ -8,3 +8,4 @@ wordcloud
 imblearn
 bs4
 requests
+seaborn
